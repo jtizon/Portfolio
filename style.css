@@ -1,0 +1,107 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #CCFFFF;
+    padding-bottom: 30px;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: gray;
+    height:30px;
+    padding: 10px;
+    text-align: right;
+    vertical-align: bottom;
+  }
+  
+  .navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    display: inline;
+    margin: auto;
+    vertical-align: bottom;
+  
+  
+  }
+  
+  .navbar li {
+    float: right;
+    padding-right: 30px;
+    background-color: gray;
+    color: black;
+    font-size: 18px;
+    vertical-align: bottom;
+  }
+  
+  .navbar .banner{
+    float: left;
+    font-family: 'Lobster', cursive;
+    color: black;
+    display: table-cell;
+    height: 30px;
+    vertical-align: middle;
+      width: 150px;
+    margin: auto;
+    background-color: gainsboro;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 600px) {
+      .navbar .hamburger{
+        display: none;
+        background-color:gray;
+        
+     }
+  }
+  
+  @media screen and (min-width: 600px) {
+      .navbar .menu{
+        display: inline;
+        background-color:gray;
+     }
+  }
+  
+  @media screen and (max-width: 600px) {
+      .navbar .menu{
+        display: none;
+        background-color:gray;
+     }
+  }
+  
+  footer .social{
+    position: absolute;
+    border-top: 2px solid gainsboro;
+    list-style-type: none;
+    min-width: 100%; 
+    height: 5%;
+    bottom: 0;
+    background-color: gray;
+    text-align: center;
+    float: left;
+    margin-left: 0;
+  
+  }
+  
+  footer .social_icon{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  
+  
+  }
+  
+  footer .social_icon:hover{
+    color: #CCFFFF;
+  }
+  
+  main{
+    margin: 50px;
+  }
+  
+  .navbar li:hover{
+    color: #CCFFFF;
+  }
+  
+  .navbar .hamburger:hover{
+    color: #CCFFFF;
+  }
