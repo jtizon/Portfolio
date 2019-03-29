@@ -46,7 +46,7 @@ body{
   }
   
   @media screen and (min-width: 600px) {
-      .navbar .hamburger{
+      .hamburger{
         display: none;
         background-color:gray;
         
@@ -67,6 +67,44 @@ body{
      }
   }
   
+  @media screen and (max-width: 600px) {
+    .hamburger{
+        display: inline-block;
+        background-color:gray;
+        
+     }
+  }
+  
+  .hamburger-content {
+    display: none;
+    margin-top: 17px;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .hamburger-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: table-caption;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .hamburger:hover .hamburger-content {
+      display: table-caption;
+      height: 100px;
+    
+   
+  }
+  
+
   footer .social{
     position: absolute;
     border-top: 2px solid gainsboro;
@@ -95,7 +133,9 @@ body{
   }
   
   main{
-    margin: 50px;
+    margin-top: 175px;
+    text-align: left;
+    vertical-align: middle;
   }
   
   .navbar li:hover{
