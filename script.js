@@ -4,16 +4,15 @@ function handleHome(){
       <header class="banner">Jessie Tizon</header>
       <div class="hamburger">&#9776;
         <div class="hamburger-content" id="dropdown">
-          <li id="a">Home</li>   <li id="a">Bio</li>
+          <li id="a" style="color: #CCFFFF">Home</li>   
+          <li id="a">Bio</li>
           <li id="a">Projects</li>
-          <li id="a">Contact</li>
         </div>
         </div>
 		  <ul class="menu">
-        <li id="a">Contact</li>
         <li id="a">Projects</li>
 			  <li id="a">Bio</li>
-			  <li id="a">Home</li>
+			  <li id="a" style="color: #CCFFFF">Home</li>
 		  </ul>
     </nav>
       <main class="IntroMain">
@@ -21,9 +20,9 @@ function handleHome(){
       </main>
       <footer>
 		    <ul class="social">
-			    <li class="social_icon"><i class="fab fa-twitter"></i></li>
-			    <li class="social_icon"><i class="fab fa-facebook"></i></li>
-			    <li class="social_icon"><i class="fab fa-instagram"></i></li>
+			    <a href="https://twitter.com/misterteezon"><li class="social_icon"><i class="fab fa-twitter"></i></li></a>
+			    <a href="https://www.facebook.com/jessie.tizon.3"><li class="social_icon"><i class="fab fa-facebook"></i></li></a>
+			    <a href="https://www.instagram.com/tizzooonnnn/?hl=en"><li class="social_icon"><i class="fab fa-instagram"></i></li></a>
 		    </ul>
   	  </footer>
       <script src="https://code.jquery.com/jquery-3.2.1.js"></script> 
@@ -37,27 +36,41 @@ function handleBio(){
       <div class="hamburger">&#9776;
         <div class="hamburger-content" id="dropdown">
           <li id="a">Home</li>
-          <li id="a">Bio</li>
+          <li id="a" style="color: #CCFFFF">Bio</li>
           <li id="a">Projects</li>
-          <li id="a">Contact</li>
         </div>
       </div>
 		  <ul class="menu">
-        <li id="a">Contact</li>
         <li id="a">Projects</li>
-			  <li id="a">Bio</li>
+			  <li id="a" style="color: #CCFFFF">Bio</li>
 			  <li id="a">Home</li>
 		  </ul>
     </nav>
+    <h1> About Me </h1>
     <main class="BioMain">
-      <h1> About Me </h1>
+      
       <h2 class="Bio">I am a learning web developer currently enrolled in the Bloc program to gain skills and knowledges on the languages needed for web developing. I first found interest in developing in my Junior year of high school. I was enrolled in this class that used a program named Scratch. Scratch used blocks instead of code to imitate the same feeling. Ever since then, I wanted to learn more and more and expand my learning past blocks of code. I am now learning languages, such as CSS, HTML and JavaScript with previous learnings in C++ and Python. <br><br> Once the code is fully compiled and working, I am found working, studying, teaching or coaching. These are the activities that take up my day to day schedule. I currently work for 24 Hour Fitness where I sell memberships as well as teach children how to code using programs like Scratch through a program named Coding with Kids. When I am not working, I am finishing my studies as I am pursuing my Computer Science Degree at the University of Colorado, Denver as I am in my second year. And once all tasks are taken care of, I head to Rangeview High School where I coach the lacrosse team in hopes to make playoffs this year! </h2>
+      <h1 style="color: black">Connect</h1>
+      <div class="connect">
+        <div class="column">
+          <a href="https://twitter.com/misterteezon"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="column">
+          <a href="https://github.com/jtizon"><i class="fab fa-github-square"></i></a>
+        </div>
+        <div class="column">
+          <a href="https://www.linkedin.com/in/jessietizon/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="column">
+          <a href="mailto:jct2418@gmail.com?Subject=Let's Connect" target="_blank" title="jct2418@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
     </main>
     <footer>
 		    <ul class="social">
-			    <li class="social_icon"><i class="fab fa-twitter"></i></li>
-			    <li class="social_icon"><i class="fab fa-facebook"></i></li>
-			    <li class="social_icon"><i class="fab fa-instagram"></i></li>
+			    <a href="https://twitter.com/misterteezon"><li class="social_icon"><i class="fab fa-twitter"></i></li></a>
+			    <a href="https://www.facebook.com/jessie.tizon.3"><li class="social_icon"><i class="fab fa-facebook"></i></li></a>
+			    <a href="https://www.instagram.com/tizzooonnnn/?hl=en"><li class="social_icon"><i class="fab fa-instagram"></i></li></a>
 		    </ul>
   	  </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script> 
@@ -72,13 +85,11 @@ function handleProjects(){
         <div class="hamburger-content" id="dropdown">
           <li id="a">Home</li>
           <li id="a">Bio</li>
-          <li id="a">Projects</li>
-          <li id="a">Contact</li>
+          <li id="a" style="color: #CCFFFF">Projects</li>
         </div>
       </div>
 		  <ul class="menu">
-        <li id="a">Contact</li>
-        <li id="a">Projects</li>
+        <li id="a" style="color: #CCFFFF">Projects</li>
 			  <li id="a">Bio</li>
 			  <li id="a">Home</li>
 		  </ul>
@@ -102,9 +113,9 @@ function handleProjects(){
     </div>
     <footer>
 		    <ul class="social">
-			    <li class="social_icon"><i class="fab fa-twitter"></i></li>
-			    <li class="social_icon"><i class="fab fa-facebook"></i></li>
-			    <li class="social_icon"><i class="fab fa-instagram"></i></li>
+			    <a href="https://twitter.com/misterteezon"><li class="social_icon"><i class="fab fa-twitter"></i></li></a>
+			    <a href="https://www.facebook.com/jessie.tizon.3"><li class="social_icon"><i class="fab fa-facebook"></i></li></a>
+			    <a href="https://www.instagram.com/tizzooonnnn/?hl=en"><li class="social_icon"><i class="fab fa-instagram"></i></li></a>
 		    </ul>
   	  </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script> 

@@ -82,13 +82,7 @@ header{
       background-color:gray;
    }
 }
-@media screen and (min-width: 900px) {
-  .Bio{
-    width: 900px;
-    margin-left: auto;
-    margin-right:auto;
-  }
-}
+
 @media screen and (max-width: 600px) {
     .navbar .menu{
       display: none;
@@ -202,6 +196,11 @@ h3{
   }
 }
 @media screen and (min-width: 800px) {
+  h2{
+    width: 800px;
+  }
+}
+@media screen and (min-width: 800px) {
   .description{
     width: 800px;
   }
@@ -219,6 +218,14 @@ h3{
   }
 }
 
+@media screen and (min-width: 800px) {
+  .BioMain{
+    width: 820px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .Intro{
   background-color:transparent;
   color: #CCFFFF;
@@ -229,12 +236,16 @@ h3{
 
 .Bio{
   text-align: center;
+  margin-bottom: 0;
 }
 
 .BioMain{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5px;
+  padding:0;
+  background-color: #CCFFFF;
+  border-radius: 5px;
+  margin-bottom: 200px;
 }
 
 h3{
@@ -249,7 +260,7 @@ h3{
 .description{
   margin-bottom: 0;
   margin-top: 0;
-
+  font-family: 'Lobster', cursive;
   color: black;
 }
 
@@ -257,6 +268,7 @@ h3{
   margin-bottom: 0;
   margin-top: 0;
   color: black;
+  font-family: 'Lobster', cursive;
 }
 
 .Projects{
@@ -266,11 +278,21 @@ h3{
   background-color: #CCFFFF;
   border-radius: 5px;
   margin-bottom: 200px;
+
+}
+
+.connect .column {
+  width: 25%;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px;
 }
 
 .column {
   width: 50%;
   float: left;
+  text-align: center;
   box-sizing: border-box;
   padding: 5px;
 }
@@ -280,6 +302,13 @@ h3{
   clear: both;
   display: table;
 }
+
+.connect::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 @media screen and (max-width: 650px) {
   .column {
@@ -301,4 +330,27 @@ h3{
 
 .repo{
   font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+.column{
+  font-size: 60px;
+}
+.connect .column:hover{
+  color: gray;
+}
+
+.connect .column a{
+  color: black;
+}
+
+.connect .column a:hover{
+  color: gray;
+}
+.social a{
+  color: black;
+}
+
+.social a:hover{
+  color: gray;
 }
