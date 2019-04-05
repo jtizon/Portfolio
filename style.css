@@ -3,18 +3,28 @@ body{
   background-color: #CCFFFF;
   padding-bottom: 30px;
   padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
+
 h1{
   text-align: center;
   font-family: 'Lobster', cursive;
+  color:#CCFFFF;
 
 }
+
 h2{
   font-size: 16px;
-
-  
-  
+  background-color: #CCFFFF;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 100px;
 }
+
 header{
   font-size: 23px;
 }
@@ -72,7 +82,13 @@ header{
       background-color:gray;
    }
 }
-
+@media screen and (min-width: 900px) {
+  .Bio{
+    width: 900px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+}
 @media screen and (max-width: 600px) {
     .navbar .menu{
       display: none;
@@ -86,11 +102,6 @@ header{
       display: inline-block;
   }
 
-}
-@media screen and (min-width: 600px) {
-    .Intro {
-      width: 500px;
-    }
 }
 
 
@@ -128,11 +139,6 @@ header{
   margin-top:175px;
 }
 
-
-
-
-
-
 footer {
   position: fixed;
   left: 0;
@@ -151,16 +157,14 @@ footer .social_icon{
   text-align: center;
   font-size: 20px;
   vertical-align: middle;
-
-
 }
 
 footer .social_icon:hover{
   color: #CCFFFF;
 }
 
-main{
-  margin-bottom: 100px;
+.IntroMain{
+  margin-bottom: 200px;
   text-align: left;
   vertical-align: middle;
   height: 300px;
@@ -168,10 +172,7 @@ main{
   margin-top: 175px;
 }
 
-.Bio{
-  text-align: center;
-  margin-top: 0px;
-}
+
 
 .navbar li:hover{
   color: #CCFFFF;
@@ -195,8 +196,109 @@ h3{
   font-size:16px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   h3{
-    width: 1000px;
+    width: 800px;
   }
+}
+@media screen and (min-width: 800px) {
+  .description{
+    width: 800px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .tech{
+    width: 800px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .Projects{
+    width: 820px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.Intro{
+  background-color:transparent;
+  color: #CCFFFF;
+  padding: 5px;
+  font-size: 24px;
+  width: 50%;
+}
+
+.Bio{
+  text-align: center;
+}
+
+.BioMain{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+h3{
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  border-radius: 5px;
+  background-color: #CCFFFF;
+}
+
+.description{
+  margin-bottom: 0;
+  margin-top: 0;
+
+  color: black;
+}
+
+.tech{
+  margin-bottom: 0;
+  margin-top: 0;
+  color: black;
+}
+
+.Projects{
+  margin-left: auto;
+  margin-right: auto;
+  padding:0;
+  background-color: #CCFFFF;
+  border-radius: 5px;
+  margin-bottom: 200px;
+}
+
+.column {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.images::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.quizApp{
+  margin:0 auto;
+  width: 150px;
+  display: block;
+  text-align: center;
+  background-color: gainsboro;
+  font-size: 24px;
+  padding: 5px;
+  border-radius: 12px;
+  font-family: 'Lobster', cursive;
+}
+
+.repo{
+  font-family: 'Lobster', cursive;
 }
