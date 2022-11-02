@@ -3,13 +3,6 @@ body{
   background-color: #CCFFFF;
   padding-bottom: 30px;
   padding: 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-}
-html { 
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
@@ -17,6 +10,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
 h1{
