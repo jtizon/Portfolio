@@ -1,12 +1,15 @@
 # Portfolio
 
 Jessie Tizon
+
 Aurora, CO | (720)949-3448 | jct2418@gmail.com
 
 Objective
+
 My current objective is to provide any workspace with the experience and skills that I have acquired through school and other forms of learning. I want to be able to provide a company/industry with the skills, time and work needed to help them succeed in all spectrums that I can be a part of.
 
 Experience
+
 CUSTOMER RELATIONSHIP ADVOCATE | FIDELITY INVESTMENTS | 11/2021 - PRESENT
 ·	Communicate effectively and efficiently with clients to ensure all tasks are addressed and cared for
 ·	Communicate with other teams and associates to ensure the client is getting the best and up to date service
@@ -35,6 +38,7 @@ INSTRUCTOR | CODING WITH KIDS | 12/2018 – 9/2019
 ·	Communicate with all parents to inform them about their child’s learning and progress
 
 Education
+
 MANAGEMENT INFORMATION SYSTEMS | UNIVERSITY OF COLORADO, DENVER | DECEMBER 2021
 ·	Major: Management Information Systems
 ·	GPA: 3.2
@@ -45,12 +49,14 @@ THINKFUL(BOOTCAMP) | SEPTEMBER 2019
 ·	Implemented HTML, JavaScript, and CSS with their coinciding libraries to create websites that were user centric and acceptable under the standards held by the grading team 
 
 Tech Skills
+
 ●	Proficient: JavaScript, CSS, HTML, Python, C++, MySQL
 ●	Beginner: Java, Ruby, C# 
 ●	Dev Tools: Git, GitHub, Chrome Dev Tools, Heroku, Travis CI
 ●	Coursework: Data Structures, Objected Oriented Programming, Database Design, Algorithms, Systems and Networks
 
 Projects
+
 SONG QUIZ | HTTPS://JTIZON.GITHUB.IO/SONGQUIZ/ | SOLE DEVELOPER
 ·	Developed an online application that allows users to play a song trivial game
 ·	The game implements CSS, HTML, and JavaScript to ensure the game is playable and enjoyable
