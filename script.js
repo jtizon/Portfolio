@@ -50,19 +50,14 @@ function handleBio(){
     </nav>
     <h1> About Me </h1>
     <main class="BioMain">
-      
-	  <header>
-	    <h2 class="Bio">Jessie Tizon</h2>
-	    <p>Aurora, CO | (720)949-3448 | jct2418@gmail.com</p>
-	  </header>
-
+    
 	  <section>
-	    <h2>Objective</h2>
+	    <h2 class="Bio">Objective</h2>
 	    <p>My current objective is to provide any workspace with the experience and skills that I have acquired through school and other forms of learning. I want to be able to provide a company/industry with the skills, time and work needed to help them succeed in all spectrums that I can be a part of.</p>
 	  </section>
 
 	  <section>
-	    <h2>Experience</h2>
+	    <h2 class="Bio">Experience</h2>
 
 	    <article>
 	      <h3>Desktop Support Specialist | Charter Communications | 11/2022 - Present</h3>
