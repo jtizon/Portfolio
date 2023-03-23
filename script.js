@@ -98,20 +98,30 @@ function handleProjects(){
     </nav>
     <h1> Song Quiz </h1>
     <div class="Projects">
-      <h2 class="description"> Description </h2>
-      <h3> I created a fun little Song Quiz that tests the user’s knowledge on music to see if the user really knows their stuff. The user is asked a total of 10 questions asking the user to either tell me the artist who performed the song or finish the line of the lyric given.</h3>
-      <h2 class="tech">Tech </h2>
-      <h3> I used CSS, JavaScript as well as HTML to develop this game as HTML was used to start the game and JavaScript was used to execute the rest of the game as CSS makes it all look pretty and adjust to the proper screen size.</h3>
-      <div class="images">
-        <div class="column">
-          <img src="Screenshot.jpg" alt="Start" style="width:100%">
-        </div>
-        <div class="column">
-          <img src="Screenshot2.jpg" alt="Question" style="width:100%">
-        </div>
-      </div>
-      <a href='https://jtizon.github.io/SongQuiz/'><button class="quizApp">Song Quiz</button></a>
-      <h3 class="repo"><a href="https://github.com/jtizon/SongQuiz.git">Repository</a></h3>
+     	<h2>SONG QUIZ | <a href="https://jtizon.github.io/songquiz/">https://jtizon.github.io/songquiz/</a> | SOLE DEVELOPER</h2>
+	<ul>
+	    	<li>Developed an online application that allows users to play a song trivial game</li>
+	    	<li>The game implements CSS, HTML, and JavaScript to ensure the game is playable and enjoyable</li>
+	    	<li>Prioritized the UI and UX to ensure the game is aesthetically pleasing and playable on all platforms</li>
+	</ul>
+
+	<h2>WHATS4DINNER | <a href="https://jtizon.github.io/whats4dinner/">https://jtizon.github.io/whats4dinner/</a> | SOLE DEVELOPER</h2>
+	<ul>
+		<li>Developed an online application that allows users to search for a meal they would like to cook</li>
+	    	<li>This meal search engine uses the criteria inputed by a user to output different meals resulting from the criteria</li>
+	    	<li>Each search result is given with a picture of the dish, special qualities, such as being gluten free, and the ingredients needed to make the dish</li>
+	    	<li>Prioritized the UI and UX to ensure the application was easy to use and information was easy to find</li>
+	    	<li>Implemented HTML, CSS, JavaScript, and jQuery</li>
+	    	<li>Pulled recipes from a third-party API</li>
+	</ul>
+
+	<h2>BATTLESHIP | <a href="https://replit.com/join/cluyflysfw-jtizon2418">https://replit.com/join/cluyflysfw-jtizon2418</a> | SOLE DEVELOPER</h2>
+	<ul>
+	   	<li>Developed an application with C++ and CSV files to recreate the iconic Battleship game</li>
+	    	<li>The game implements a variety of coding and developing methods to create a smooth and seamless interaction with the user and the code</li>
+	    	<li>Players take turns playing against the computer and grids are shown to help with playability</li>
+	    	<li>Code was developed for school and was required to meet certain standards and deadlines</li>
+	</ul>
     </div>
     <footer>
 		    <ul class="social">
