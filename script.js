@@ -52,7 +52,7 @@ function handleBio(){
     <main class="BioMain">
       
 	  <header>
-	    <h1>Jessie Tizon</h1>
+	    <h2>Jessie Tizon</h2>
 	    <p>Aurora, CO | (720)949-3448 | jct2418@gmail.com</p>
 	  </header>
 
