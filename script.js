@@ -49,26 +49,73 @@ function handleBio(){
     <h1> About Me </h1>
     <main class="BioMain">
       
-      <h2 class="Bio">Bio</h2>
-	<p>My name is [Your Name], and I recently graduated from the University of Colorado, Denver with a Bachelor's degree in Management Information Systems. I am currently working as a desktop support specialist at Charter Communications. Throughout my career, I have had the opportunity to work in various industries, including healthcare and finance, before ultimately landing in the field of technology.</p>
-	<p>When I'm not working, I enjoy staying active through fitness, unwinding with video games, and exploring new food spots. I have a wonderful girlfriend and a furry best friend named Koda. I am always seeking opportunities to learn and grow both personally and professionally, so I can continue to excel in any job role I take on.</p> 
-	<p>Thank you for taking the time to learn a little bit about me!</p>
-      <h1 style="color: black">Connect</h1>
-      <div class="connect">
-        <div class="column">
-          <a href="https://twitter.com/misterteezon"><i class="fab fa-twitter"></i></a>
-        </div>
-        <div class="column">
-          <a href="https://github.com/jtizon"><i class="fab fa-github-square"></i></a>
-        </div>
-        <div class="column">
-          <a href="https://www.linkedin.com/in/jessietizon/"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="column">
-          <a href="mailto:jct2418@gmail.com?Subject=Let's Connect" target="_blank" title="jct2418@gmail.com"><i class="fas fa-envelope"></i></a>
-        </div>
-      </div>
-    </main>
+	  <header>
+	    <h1>Jessie Tizon</h1>
+	    <p>Aurora, CO | (720)949-3448 | jct2418@gmail.com</p>
+	  </header>
+
+	  <section>
+	    <h2>Objective</h2>
+	    <p>My current objective is to provide any workspace with the experience and skills that I have acquired through school and other forms of learning. I want to be able to provide a company/industry with the skills, time and work needed to help them succeed in all spectrums that I can be a part of.</p>
+	  </section>
+
+	  <section>
+	    <h2>Experience</h2>
+
+	    <article>
+	      <h3>Desktop Support Specialist | Charter Communications | 11/2022 - Present</h3>
+	      <ul>
+		<li>Communicate effectively with users and team members</li>
+		<li>Delegate and triage tickets to ensure every user is properly supported</li>
+		<li>Work individually and as a team to tackle projects with deadlines</li>
+		<li>Troubleshoot and use all resources available</li>
+	      </ul>
+	    </article>
+
+	    <article>
+	      <h3>CUSTOMER RELATIONSHIP ADVOCATE | FIDELITY INVESTMENTS | 11/2021 - 11/2022</h3>
+	      <ul>
+		<li>Communicate effectively and efficiently with clients to ensure all tasks are addressed and cared for</li>
+		<li>Communicate with other teams and associates to ensure the client is getting the best and up to date service</li>
+		<li>Ensure I practice and implement Fidelity’s core path and other tools to ensure a consistent and efficient call</li>
+	      </ul>
+	    </article>
+
+	    <article>
+	      <h3>LAB TECHNICIAN | CHILDREN’S EYE PHYSICIANS | 10/2020 – 11/2021</h3>
+	      <ul>
+		<li>Test materials and products to ensure patients receive the best product we can provide</li>
+		<li>Ensure every patient is notified through our computer programs of the status of their product</li>
+		<li>Communicate with vendors and clients to promote a fast and efficient process</li>
+		<li>Be cautious and vigilant with every process to minimize mistakes</li>
+	      </ul>
+	    </article>
+
+	    <article>
+	      <h3>TRIAGE ANALYST | INTELISECURE | 5/2020 - 10/2020</h3>
+	      <ul>
+		<li>Manage client data flow with the use of applications like McAfee and Symantec</li>
+		<li>Triage incidents to find out if a client’s data transfer was malicious</li>
+		<li>Communicate with other team members and departments so we can provide the best service for our clients</li>
+		<li>Communicate with clients to ensure a consistent connection with them that allows us to clearly lay out expectations and the means to deliver them</li>
+	      </ul>
+	    </article>
+	      <h1 style="color: black">Connect</h1>
+	      <div class="connect">
+		<div class="column">
+		  <a href="https://twitter.com/misterteezon"><i class="fab fa-twitter"></i></a>
+		</div>
+		<div class="column">
+		  <a href="https://github.com/jtizon"><i class="fab fa-github-square"></i></a>
+		</div>
+		<div class="column">
+		  <a href="https://www.linkedin.com/in/jessietizon/"><i class="fab fa-linkedin"></i></a>
+		</div>
+		<div class="column">
+		  <a href="mailto:jct2418@gmail.com?Subject=Let's Connect" target="_blank" title="jct2418@gmail.com"><i class="fas fa-envelope"></i></a>
+		</div>
+	      </div>
+	</main>
     <footer>
 		    <ul class="social">
 			    <a href="https://twitter.com/misterteezon"><li class="social_icon"><i class="fab fa-twitter"></i></li></a>
