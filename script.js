@@ -15,8 +15,8 @@ function handleHome(){
 			  <li id="a" style="color: #CCFFFF">Home</li>
 		  </ul>
     </nav>
-      <main class="IntroMain">
-        <h2 class="Intro">Hello and welcome to my portfolio!</h2>
+      <main class="BioMain">
+        <h2 class="Bio">Hello and welcome to my portfolio!</h2>
 	<p>My name is Jessie Tizon and I am a desktop support specialist currently working for Charter Communications. I graduated from the University of Colorado, Denver with a Bachelor's Degree in Management Information Systems. Throughout my coursework, I have gained valuable experience in C++, MySQL, and JavaScript. I have also completed the Thinkful bootcamp, which has given me a solid foundation in full stack development.</p>
 	<p>I am passionate about technology and am always eager to learn new things. In this portfolio, you will find a selection of my projects and experiences that showcase my skills and abilities in the field of information technology. Thank you for taking the time to view my work, and I hope you enjoy exploring my portfolio.</p>
       </main>
