@@ -49,7 +49,10 @@ function handleBio(){
     <h1> About Me </h1>
     <main class="BioMain">
       
-      <h2 class="Bio">I am a learning web developer currently enrolled in the Bloc program to gain skills and knowledges on the languages needed for web developing. I first found interest in developing in my Junior year of high school. I was enrolled in this class that used a program named Scratch. Scratch used blocks instead of code to imitate the same feeling. Ever since then, I wanted to learn more and more and expand my learning past blocks of code. I am now learning languages, such as CSS, HTML and JavaScript with previous learnings in C++ and Python. I hope to use these skills collaboratively with a team of great programmers.<br><br> Once the code is fully compiled and working, I am found working, studying, teaching or coaching. These are the activities that take up my day to day schedule. I currently work for 24 Hour Fitness where I sell memberships as well as teach children how to code using programs like Scratch through a program named Coding with Kids. When I am not working, I am finishing my studies as I am pursuing my Computer Science Degree at the University of Colorado, Denver as I am in my second year. And once all tasks are taken care of, I head to Rangeview High School where I coach the lacrosse team in hopes to make playoffs this year! </h2>
+      <h2 class="Bio">Bio</h2>
+	<p>My name is [Your Name], and I recently graduated from the University of Colorado, Denver with a Bachelor's degree in Management Information Systems. I am currently working as a desktop support specialist at Charter Communications. Throughout my career, I have had the opportunity to work in various industries, including healthcare and finance, before ultimately landing in the field of technology.</p>
+	<p>When I'm not working, I enjoy staying active through fitness, unwinding with video games, and exploring new food spots. I have a wonderful girlfriend and a furry best friend named Koda. I am always seeking opportunities to learn and grow both personally and professionally, so I can continue to excel in any job role I take on.</p> 
+	<p>Thank you for taking the time to learn a little bit about me!</p>
       <h1 style="color: black">Connect</h1>
       <div class="connect">
         <div class="column">
